@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .main h2, .main p {
+            margin: 10px 0;
+        }
+        .features, .screenshots {
+            margin: 20px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: rgb(62, 62, 62);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>To-do App</h1>
+    </header>
+    <div class="main">
+        <h2>Welcome to the To-do App</h2>
+        <p>Manage your tasks and keep track of your to-do list.</p>
+        <div class="features">
+            <h3>Features:</h3>
+            <ul>
+                <li>Create new tasks easily</li>
+                <li>View all your tasks at a glance</li>
+                <li>Edit tasks as needed</li>
+                <li>Delete tasks you no longer need</li>
+            </ul>
+        </div>
+        
+        <div class="cta">
+            <button onclick="location.href='index.php'">Get Started</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 To-do App</p>
+    </footer>
+</body>
+</html>
